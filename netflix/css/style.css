@@ -131,3 +131,17 @@ nav .signIn:hover, .btn:hover {
 .size-80 {
     width: 80%;
 }
+
+#features > nav a.is-selected {
+    border-bottom: 5px solid #e50914;
+    color: #ffffff;
+}
+
+#features > articles > section {
+    display: none;
+    padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+    display: block;
+}
