@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     font-family: 'Helvetica Neue',Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #000000;
     font-size: 16px;
 }
 
@@ -43,5 +43,21 @@ nav .signIn {
     border-radius: 3px;
     font-size: 16px;
     text-decoration: none;
+}
 
+.pitch {
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+}
+
+.pitch__title { 
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+
+.pitch__subtitle {
+    margin: 0 0 0.5em;
 }
